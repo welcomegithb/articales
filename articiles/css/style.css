@@ -42,19 +42,19 @@ body {
   color: #ffffff;
 }
 
-.article-left-info {
+.article__left__info {
   max-width: 285px;
   width: 100%;
 }
 
-.article-left-title {
+.article__left__itle {
   margin-top: 0;
   margin-bottom: 24px;
   font-size: 24px;
   text-transform: uppercase;
 }
 
-.article-left-btn {
+.article__left__btn {
   display: flex;
   border: none;
   padding: 12px 24px;
@@ -67,7 +67,7 @@ body {
   letter-spacing: 2px;
 }
 
-.article-left-btn::before {
+.article__left__btn::before {
   display: inline-block;
   background-image: url(../img/Vector.svg);
   background-repeat: no-repeat;
@@ -79,13 +79,13 @@ body {
   content: '';
 }
 
-.article-left-btn:hover {
+.article__left__btn:hover {
   opacity: 0.6;
   transition: all 0.4s ease;
 }
 /*  */
 
-.article-right {
+.article__right {
   width: 50%;
   margin-right: auto;
   margin-left: auto;
@@ -107,23 +107,23 @@ body {
   margin-bottom: 24px;
 }
 
-.article-right-list {
+.article__right__list {
   list-style: none;
   padding: 0;
   margin: 0;
   margin-bottom: 24px;
 }
 
-.article-right-item {
+.article__right__item {
   display: flex;
   align-items: center;
 }
 
-.article-right-item:not(:last-child) {
+.article__right__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.article-right-img {
+.article__right__img {
   border-radius: 4px;
   width: 160px;
   height: 90px;
@@ -131,12 +131,12 @@ body {
   margin-right: 16px;
 }
 
-.article-right-info {
+.article__right__info {
   max-width: 307px;
   width: 100%;
 }
 
-.article-right-info-title a {
+.article__right__info-title a {
   color: #222;
   text-decoration: none;
   font-weight: 400;
@@ -148,32 +148,32 @@ body {
   transition: all 0.4s ease;
 }
 
-.article-right-info-title a:hover {
+.article__right__info-title a:hover {
   color: #1e90ff;
 }
 
-.article-right-info-title a:active {
+.article__right__info-title a:active {
   opacity: 0.6;
 }
 
-.article-right-info-view {
+.article__right__info-view {
   display: flex;
 }
 
-.article-right-info-text {
+.article__right__info-text {
   display: flex;
   color: #888888;
   font-size: 14px;
   font-weight: 400;
 }
 
-.article-right-info-text:not(:last-child) {
+.article__right__info-text:not(:last-child) {
   margin-right: 24px;
 }
 
 /* soat rasmlarni olib kelaman */
 
-.article-right-info-text::before {
+.article__right__info-text::before {
   display: inline-block;
   background-image: url(../img/Vector.svg);
   background-size: cover;
@@ -187,7 +187,7 @@ body {
 
 /* kozni rasmini olib kelaman */
 
-.article-right-info-text2::before {
+.article__right__info-text2::before {
   display: inline-block;
   background-image: url(../img/visibility_black_24dp\ 1.svg);
   background-size: cover;
