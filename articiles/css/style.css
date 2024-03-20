@@ -28,7 +28,7 @@ body {
   display: flex;
 }
 
-.article-left {
+.article__left {
   height: 100vh;
   width: 50%;
   background-image: url(../img/left-bg.jpg);
@@ -92,14 +92,14 @@ body {
   padding: 54px;
 }
 
-.article-right-title {
+.article__right__title {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 24px;
   font-size: 24px;
 }
 
-.article-right-line {
+.article__right__line {
   width: 100%;
   background-color: #999999;
   border: none;
